@@ -50,5 +50,6 @@ variable "placeholder" {
 }
 
 variable "bucket_prefix" {
+  default = "kkisworo"
   description = "Prefix for S3 bucket"
 }
